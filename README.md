@@ -83,11 +83,11 @@ public class DrawLine extends View
         super.onDetachedFromWindow();
     }
 
+    //그리기 bitmap이 있으면 현재 화면에 bitmap을 그린다.
+    //자바의 view는 onDraw할때 마다 화면을 싹 지우고 다시 그리게 됨.
     @Override
     public void onDraw(Canvas canvas)
     {
-        //그리기 bitmap이 있으면 현재 화면에 bitmap을 그린다.
-        //자바의 view는 onDraw할때 마다 화면을 싹 지우고 다시 그리게 됨.
         if(bitmap != null)
         {
             canvas.drawBitmap(bitmap, 0, 0, null);
