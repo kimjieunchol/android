@@ -240,7 +240,7 @@ public class DrawLine extends View
 1) Number matching
 2) Animal matching
 
-- 제시된 단어에 맞는 알파벳을 찾아 터치하고 성공적으로 수행한 경우에는 숫자 매칭게임과 마찬가지로 빨간색 동그라미로 정답을 확인해 준다.
+- 제시된 단어에 맞는 알파벳을 찾아 터치하고 성공적으로 수행한 경우에는 숫 빨간색 동그라미로 정답을 확인해 준다.
 
 3. coding game (코딩 게임)
 1) game
